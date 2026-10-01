@@ -1,0 +1,120 @@
+# ============================================================
+# Secrets and local configuration
+# ============================================================
+
+.env
+.env.*
+*.env
+credentials*
+secrets*
+*.pem
+*.key
+
+
+# ============================================================
+# Private / licensed / raw data
+# ============================================================
+
+data/
+CME Comp Files/
+
+*.rds
+*.RDS
+*.rda
+*.RData
+*.RDataTmp*
+
+
+# ============================================================
+# Competition-specific live inputs
+# ============================================================
+
+current_account.csv
+current_leaderboard.csv
+previous_leaderboard.csv
+daily_prize_winners.csv
+
+
+# ============================================================
+# Bloomberg exports
+# ============================================================
+
+*_GIT*.csv
+*_missing_data.csv
+*_roll_mapping.csv
+
+
+# ============================================================
+# Generated model and pipeline outputs
+# ============================================================
+
+backtests/
+models/
+diagnostics/
+outputs/
+output/
+results/
+
+mu.csv
+Sigma.csv
+state_mean_competition.csv
+state_cov_competition.csv
+state_futures_cov_competition.csv
+innovation_marginals.csv
+innovation_latent_correlation.csv
+innovation_arithmetic_mapping.csv
+innovation_system_metadata.csv
+margin.csv
+current_state.csv
+
+
+# ============================================================
+# R
+# ============================================================
+
+.Rhistory
+.Rapp.history
+.Rproj.user/
+.Ruserdata
+
+
+# ============================================================
+# Python / Jupyter
+# ============================================================
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+.venv/
+venv/
+env/
+
+
+# ============================================================
+# IDE / OS
+# ============================================================
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+
+# ============================================================
+# Temporary files
+# ============================================================
+
+*.tmp
+*.temp
+*.log
+*~
+# ============================================================
+# Public synthetic demonstration data
+# ============================================================
+# The production files with these names are ignored above, but the
+# deterministic synthetic examples are intentionally version-controlled.
+!examples/sample_inputs/
+!examples/sample_inputs/*.csv
+!examples/sample_output/
+!examples/sample_output/*.csv

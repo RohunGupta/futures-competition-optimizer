@@ -1,0 +1,9 @@
+future,future_index,mapping_family,floor_parameter,raw_mean,raw_sd,return_floor,return_floor_epsilon
+CL,1,Monotone_Standardized_Soft_Lower_Floor,1.0,0.0,1.0,-1.0,1e-06
+GC,2,Monotone_Standardized_Soft_Lower_Floor,1.0,0.0,1.0,-1.0,1e-06
+SR3,3,Monotone_Standardized_Soft_Lower_Floor,1.0,0.0,1.0,-1.0,1e-06
+ZN,4,Monotone_Standardized_Soft_Lower_Floor,1.0,0.0,1.0,-1.0,1e-06
+KE,5,Monotone_Standardized_Soft_Lower_Floor,1.0,0.0,1.0,-1.0,1e-06
+HO,6,Monotone_Standardized_Soft_Lower_Floor,1.0,0.0,1.0,-1.0,1e-06
+ZW,7,Monotone_Standardized_Soft_Lower_Floor,1.0,0.0,1.0,-1.0,1e-06
+NQ,8,Monotone_Standardized_Soft_Lower_Floor,1.0,0.0,1.0,-1.0,1e-06

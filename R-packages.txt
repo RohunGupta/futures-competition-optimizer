@@ -1,0 +1,10 @@
+tidyverse
+here
+lubridate
+purrr
+readr
+stringr
+tibble
+tidyr
+forecast
+rugarch

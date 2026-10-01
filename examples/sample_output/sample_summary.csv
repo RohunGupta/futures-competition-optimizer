@@ -1,0 +1,2 @@
+current_t,reference_balance,continuous_expected_prize,executable_expected_prize,final_leaderboard_expected_prize,daily_expected_prize,discretization_cost,gross_weight,required_margin,margin_remaining
+2,25000.0,2500.0,2500.0,2500.0,0.0,0.0,0.9988,24970.0,30.0
